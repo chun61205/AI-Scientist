@@ -21,6 +21,8 @@ For reference, the baseline results are as follows:
 
 {baseline_results}
 
+After coding each change, ensure your code writes final_info.json directly into the run_i subfolder.
+
 After you complete each change, we will run the command `python experiment.py --out_dir=run_i' where i is the run number and evaluate the results.
 YOUR PROPOSED CHANGE MUST USE THIS COMMAND FORMAT, DO NOT ADD ADDITIONAL COMMAND LINE ARGS.
 You can then implement the next thing on your list."""
@@ -70,6 +72,8 @@ Decide if you need to re-plan your experiments given the result (you often will 
 
 Someone else will be using `notes.txt` to perform a writeup on this in the future.
 Please include *all* relevant information for the writeup on Run {run_num}, including an experiment description and the run number. Be as verbose as necessary.
+
+After coding each change, ensure your code writes final_info.json directly into the run_i subfolder.
 
 Then, implement the next thing on your list.
 We will then run the command `python experiment.py --out_dir=run_{run_num + 1}'.
